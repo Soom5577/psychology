@@ -1,0 +1,105 @@
+body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      direction: rtl;
+      text-align: center;
+      color: #333;
+    }
+    nav {
+      background: #2a4d69;
+      padding: 15px;
+      color: white;
+    }
+    nav h1 {
+      margin: 0;
+    }
+    .hero {
+      padding: 60px 20px;
+      background: url(img/Fundo\ do\ dia\ da\ saúde\ mental\ do\ mundo\ plano\ _\ Vetor\ Grátis.png); 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .hero h2 {
+      color: #2a4d69;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 25px;
+      background: #efc050;
+      color: #2a4d69;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    #about {
+      background: url(img/MOVING\ DRAWINGS\ -\ LILLI\ CARRÉ.gif); 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #about h2  {
+        color: #1c99ff;
+        background: rgba(255, 255, 255, 0.6); 
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #about p  {
+        color: #1c99ff;
+        background: rgba(255, 255, 255, 0.6); 
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #signals {
+      background: url(img/Download\ Basic\ human\ actions\ and\ body\ languages\ set\ for\ free.jpeg); 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #signals h2 {
+        color: red;
+        background: rgba(255, 255, 255, 0.6); 
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #signals p {
+        color: red;
+        background: rgba(255, 255, 255, 0.6); 
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #use {
+      background: url(img/download\ \(6\).gif); 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #use h2 {
+        color: black;
+        background: rgba(255, 255, 255, 0.247); 
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #use p {
+        color: black;
+        background: rgba(255, 255, 255, 0.247); 
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #contact {
+      background: url(img/f1333fc6dd0ff049607a707e196ea280_gif\ 800×600\ pixels.gif); 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #contact h2 {
+        color: blue;
+        background: rgba(255, 255, 255, 0.247); 
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #contact p {
+        color: blue;
+        background: rgba(255, 255, 255, 0.247); 
+        padding: 15px;
+        border-radius: 10px;
+    }

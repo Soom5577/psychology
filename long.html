@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تواصل معنا</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      direction: rtl;
+      background: url(img/cognitive\ psychology\ canvas\ banner.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .contact-box {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      padding: 30px;
+      border-radius: 15px;
+      width: 350px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #2a4d69;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      font-size: 14px;
+    }
+    input {
+      background: rgba(255,255,255,0.8);
+    }
+    textarea {
+      background: rgba(255,255,255,0.8);
+      resize: none;
+      height: 100px;
+    }
+    button {
+      background: #2a4d69;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      cursor: pointer;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #efc050;
+      color: #2a4d69;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-box">
+    <h2>📩 تواصل معنا</h2>
+    <form>
+      <input type="text" placeholder="الاسم الكامل" required>
+      <input type="email" placeholder="البريد الإلكتروني" required>
+      <textarea placeholder="اكتب رسالتك هنا..." required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </div>
+</body>
+</html>
